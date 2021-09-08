@@ -1,0 +1,13 @@
+
+##  Linear iBAG
+
+#### This module fits the linear iBAG models proposed in  [Wang et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23142963/) and [Jennings et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23142963/). The model fitting  and outputs are shown in the Figure below. 
+
+
+#### **iBAG model fitting**: iBAG uses a hierarchical procedure by breaking the modeling into two parts, a mechanistic component (Step 1) that clarifies the molecular behaviors, mechanisms and relationships between and within the different types of molecular platforms. Subsequently, a clinical component (Step 2) that utilizes this information to assess associations with patient-specific clinical outcomes and/or phenotypes  that characterize disease development or progression (e.g. survival times).
+
+
+#### **iBAG Model Outputs**: 
+> + `Posterior Probability Plots`: Probability plots of the regression coefficients.
+> + `Gene Tables`: Table of genes identified to have at least one significant marker by the above posterior probability plots.
+> + `Mechanistic Model Fits`: A heatmap of driver genes.

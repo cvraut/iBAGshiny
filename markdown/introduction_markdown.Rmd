@@ -1,0 +1,13 @@
+###  R/Shiny application for fitting iBAG: ___***i***___ntegrative ___***B***___ayesian ___***A***___nalyses of ___***G***___enomics models and its generalizations
+
+##### iBAG is a modeling framework for integrating multiplatform ‘omic data such as  genomic, transcriptomic  and epigenomic data along with patient-specific clinical outcomes and/or phenotypes  that characterize disease development or progression (e.g. survival times, treatment arms, therapeutic response or sub-types) as well as radiological imaging data.
+
+
+##### There are four variations of iBAG methodology depending on the modeling context (as shown in the figure below)
+
+
+#### There are five versions of iBAG for specific problems:
+> + `iBAG`: Integrating data from multi-omic platforms ([Wang et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23142963/); [Jennings et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23142963/))
+> + `piBAG`: pathway iBAG, integrating data from multi-omic platforms + functional/pathway information (McGuffey et al, 2021+, in submission) [Forthcoming]
+> + `Radio iBAG`: Integrating data from multi-omic platforms + radiogologic imaging features  ([Zhang et al, 2019](https://pubmed.ncbi.nlm.nih.gov/33224404/)) [Forthcoming]
+> + `Functional iBAG`: Integrating data from high-throughput proteomics and genomics (Bhattcharyya et al, 2021+, in preparation) [Forthcoming] 
