@@ -9,15 +9,22 @@
 
 require(shiny)
 require(ggplot2)
-require(shinydashboard)
+# require(shinydashboard)
 require(shinythemes)
 require(rmarkdown)
 #require(d3heatmap)
 require(bslib)
+require(glmnet)
+require(MCMCpack)
+require(EMVS)
+require(graper)
+require(thematic)
+require(dplyr)
+
 
 source("func.R")
-source("introduction.R")
-source("introduction_iBAG.R")
+#source("introduction.R")
+#source("introduction_iBAG.R")
 
 library(bslib)
 
@@ -249,7 +256,7 @@ ui <- tabler_page(
         tabler_tab_items(
             tabler_tab_item(
                 tabName = "tab1",
-                introduction_page
+                "introduction_page"
             ),
             tabler_tab_item(
                 tabName = "tab2",
@@ -274,13 +281,13 @@ ui <- tabler_page(
                         tabler_tab_items(
                             tabler_tab_item(
                                 tabName = "lin1",
-                                introduction_iBAG_page
+                                "introduction_iBAG_page"
                             )
                         ),
                         tabler_tab_items(
                             tabler_tab_item(
                                 tabName = "lin2",
-                                introduction_iBAG_page
+                                "introduction_iBAG_page"
                             )
                         )
                     )
