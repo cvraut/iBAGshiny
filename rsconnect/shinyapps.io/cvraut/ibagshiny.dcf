@@ -1,0 +1,11 @@
+name: ibagshiny
+title:
+username:
+account: cvraut
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4675597
+bundleId: 5043358
+url: https://cvraut.shinyapps.io/ibagshiny/
+when: 1631887774.84452
+lastSyncTime: 1631887774.84452

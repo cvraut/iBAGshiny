@@ -20,6 +20,7 @@ require(EMVS)
 require(graper)
 require(thematic)
 require(dplyr)
+require(rsconnect)
 
 
 source("func.R")

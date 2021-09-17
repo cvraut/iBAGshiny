@@ -17,3 +17,12 @@ save_world <- function(lockfile_name = "renv.lock"){
 load_world <- function(lockfile_name = "renv.lock"){
   renv::restore(lockfile = lockfile_name)
 }
+
+# add Biocmanager to the repos list
+options(repos = BiocManager::repositories())
+
+
+# link the shinyapps.io account with the dev app
+rsconnect::setAccountInfo(name='cvraut', token='1988AC5A45258075C8612E7ADD0236D9', secret='AMOGUS')
+# push the app to the env
+rsconnect::deployApp('C:\\Users\\craut\\Documents\\wip\\iBAGshiny')
