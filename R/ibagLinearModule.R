@@ -24,9 +24,11 @@ ibagLinearUi <- function(id) {
 ibagLinear <- function(input, output, session) {
   
   ns <- session$ns
-  sliderInput("obs",
+  output$ibagLinear <- renderUI({
+    sliderInput("obs",
               "Number of observations:",
               min = 0,
               max = 1000,
               value = 500)
+    })
 }

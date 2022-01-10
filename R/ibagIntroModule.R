@@ -18,13 +18,13 @@ ibagIntroUi <- function(id) {
 #' @param output Shiny outputs.
 #' @param session Shiny session.
 #'
-#' @import shinyWidgets
+#' @import htmltools
 #'
 #' @export
 ibagIntro <- function(input, output, session) {
   ns <- session$ns
   output$ibagIntro <- renderUI({
-    tabItem(
+    tablerTabItem(
       
       # Name of this tab
       tabName = "introduction",
@@ -42,8 +42,7 @@ ibagIntro <- function(input, output, session) {
         width = 6, 
         offset = 1,
         shiny::img(src = "iBAG_intro_pic.PNG",
-                   width = 3*242,
-                   height = 3*117)
+                   width = 500)
       )
       
     )

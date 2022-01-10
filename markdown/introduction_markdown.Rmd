@@ -11,3 +11,5 @@
 > + `piBAG`: pathway iBAG, integrating data from multi-omic platforms + functional/pathway information (McGuffey et al, 2021+, in submission) [Forthcoming]
 > + `Radio iBAG`: Integrating data from multi-omic platforms + radiogologic imaging features  ([Zhang et al, 2019](https://pubmed.ncbi.nlm.nih.gov/33224404/)) [Forthcoming]
 > + `Functional iBAG`: Integrating data from high-throughput proteomics and genomics (Bhattcharyya et al, 2021+, in preparation) [Forthcoming] 
+
+

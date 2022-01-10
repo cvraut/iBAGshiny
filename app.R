@@ -4,6 +4,7 @@ library(tablerDash)
 library(shinyWidgets)
 library(shinyEffects)
 library(pushbar)
+library(markdown)
 
 # this 'pkg'
 library(ibagshiny)
